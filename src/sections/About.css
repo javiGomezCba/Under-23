@@ -1,0 +1,234 @@
+.about {
+  scroll-margin-top: 88px;
+  padding: 76px 20px 88px;
+  border-top: 1px solid rgba(143, 175, 152, 0.18);
+  background: #0d120f;
+}
+
+.about__inner {
+  display: grid;
+  width: min(100%, 1328px);
+  grid-template-columns: minmax(0, 1fr);
+  gap: 52px;
+  margin: 0 auto;
+}
+
+.about__brand {
+  max-width: 32rem;
+  padding-left: 16px;
+  border-left: 2px solid var(--accent);
+}
+
+.about__eyebrow {
+  margin: 0 0 18px;
+  color: var(--accent);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.18em;
+}
+
+.about__title {
+  margin: 0;
+  color: var(--text);
+  font-size: clamp(42px, 11vw, 54px);
+  font-weight: 800;
+  letter-spacing: -0.075em;
+  line-height: 0.99;
+}
+
+.about__copy {
+  display: grid;
+  gap: 12px;
+  max-width: 29rem;
+  margin-top: 22px;
+  color: var(--text-muted);
+  font-size: 15px;
+  line-height: 1.65;
+}
+
+.about__copy p {
+  margin: 0;
+}
+
+.about__information {
+  border-top: 1px solid var(--border);
+}
+
+.about__item {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 9px;
+  padding: 20px 0;
+  border-bottom: 1px solid var(--border);
+}
+
+.about__label {
+  margin: 0;
+  color: var(--accent);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.16em;
+}
+
+.about__value {
+  display: grid;
+  gap: 3px;
+  margin: 0;
+  color: var(--text);
+  font-size: 15px;
+  font-style: normal;
+  font-weight: 600;
+  line-height: 1.55;
+  overflow-wrap: anywhere;
+}
+
+.about__hours {
+  gap: 12px;
+}
+
+.about__hours p {
+  display: grid;
+  grid-template-columns: minmax(0, 1fr);
+  gap: 2px;
+  margin: 0;
+}
+
+.about__hours p:first-child span:first-child,
+.about__hours p:last-child span:first-child {
+  margin-bottom: 2px;
+  color: var(--text-muted);
+  font-size: 11px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+}
+
+.about__hours p:last-child span:last-child {
+  color: var(--text-muted);
+  font-weight: 500;
+}
+
+.about__action {
+  display: inline-flex;
+  width: fit-content;
+  min-height: 48px;
+  align-items: center;
+  justify-content: center;
+  gap: 12px;
+  margin-top: 2px;
+  padding: 0 18px;
+  border: 1px solid var(--border);
+  border-radius: 999px;
+  color: var(--text);
+  font-size: 10px;
+  font-weight: 800;
+  letter-spacing: 0.08em;
+  text-decoration: none;
+  transition:
+    color 180ms ease,
+    background-color 180ms ease,
+    border-color 180ms ease,
+    transform 180ms ease;
+}
+
+.about__action span {
+  font-size: 15px;
+  line-height: 1;
+}
+
+.about__action:hover {
+  transform: translateY(-1px);
+  border-color: var(--accent);
+  background: var(--surface-hover);
+}
+
+.about__action:focus-visible {
+  outline: 2px solid var(--accent);
+  outline-offset: 3px;
+}
+
+@media (min-width: 640px) {
+  .about {
+    scroll-margin-top: 96px;
+    padding: 96px 36px 112px;
+  }
+
+  .about__title {
+    font-size: clamp(54px, 8vw, 72px);
+  }
+
+  .about__copy {
+    font-size: 16px;
+  }
+
+  .about__label {
+    font-size: 11px;
+  }
+
+  .about__value {
+    font-size: 16px;
+  }
+}
+
+@media (min-width: 768px) {
+  .about__inner {
+    grid-template-columns: minmax(0, 0.9fr) minmax(0, 1.1fr);
+    align-items: start;
+    gap: clamp(40px, 7vw, 88px);
+  }
+
+  .about__title {
+    font-size: clamp(54px, 6vw, 68px);
+  }
+
+  .about__item {
+    padding: 18px 0;
+  }
+}
+
+@media (min-width: 1024px) {
+  .about {
+    scroll-margin-top: 104px;
+    padding: 120px 56px 136px;
+  }
+
+  .about__inner {
+    grid-template-columns: minmax(0, 0.95fr) minmax(440px, 0.85fr);
+    align-items: center;
+    gap: clamp(72px, 10vw, 160px);
+  }
+
+  .about__title {
+    font-size: clamp(68px, 6vw, 82px);
+  }
+
+  .about__copy {
+    margin-top: 28px;
+    font-size: 17px;
+  }
+
+  .about__item {
+    grid-template-columns: 112px minmax(0, 1fr);
+    column-gap: 20px;
+    row-gap: 10px;
+    padding: 22px 0;
+  }
+
+  .about__label {
+    grid-row: span 2;
+    padding-top: 12px;
+  }
+
+  .about__action {
+    margin-top: 0;
+  }
+
+  .about__hours {
+    grid-row: span 2;
+    grid-template-columns: minmax(0, 1fr) auto;
+    gap: 16px;
+  }
+
+  .about__hours p {
+    align-content: start;
+  }
+}

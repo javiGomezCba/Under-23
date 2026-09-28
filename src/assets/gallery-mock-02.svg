@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#181D1A"/>
+  <path d="M0 0h800v1000H0z" fill="#121614"/>
+  <path d="M104 180h592v430H104z" stroke="#687D6D" stroke-opacity=".52" stroke-width="2"/>
+  <path d="m104 610 190-430h118L222 610H104zm205 0 190-430h118L427 610H309zm205 0 190-430h96v160L632 610H514z" fill="#687D6D" fill-opacity=".42"/>
+  <path d="M178 467c45-113 136-178 235-178 106 0 183 67 209 178-54 77-129 115-223 115-91 0-164-38-221-115z" fill="#080A09" stroke="#F1F3F1" stroke-opacity=".24" stroke-width="3"/>
+  <path d="M282 398c36-38 78-56 126-56 45 0 83 15 116 46" stroke="#687D6D" stroke-width="15" stroke-linecap="round"/>
+  <path d="M190 746h420" stroke="#F1F3F1" stroke-opacity=".18"/>
+  <text x="400" y="812" fill="#F1F3F1" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="7" text-anchor="middle">MOCK · REEMPLAZAR POR FOTO REAL</text>
+  <text x="400" y="867" fill="#687D6D" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="5" text-anchor="middle">U23 / ESTUDIO VISUAL 02</text>
+</svg>

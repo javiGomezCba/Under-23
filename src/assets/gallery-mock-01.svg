@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#121614"/>
+  <path d="M0 0h800v360H0z" fill="#181D1A"/>
+  <circle cx="400" cy="400" r="214" stroke="#687D6D" stroke-opacity=".55" stroke-width="2"/>
+  <path d="M400 186c-104 0-188 84-188 188 0 60 28 111 72 146 15-44 49-79 91-97-34-18-57-53-57-93 0-58 47-105 105-105 54 0 99 41 105 94 26 23 42 58 42 97 0 38-15 72-40 96 44-35 72-88 72-148 0-94-75-172-170-178-10-1-21 0-32 0z" fill="#687D6D"/>
+  <path d="M301 425c13 10 29 16 46 16 29 0 53-18 63-43M499 425c-13 10-29 16-46 16-18 0-34-7-46-19" stroke="#F1F3F1" stroke-opacity=".7" stroke-width="7" stroke-linecap="round"/>
+  <path d="M287 535c30-41 67-68 113-68s83 27 113 68l80 126H207l80-126z" fill="#181D1A" stroke="#687D6D" stroke-opacity=".65" stroke-width="2"/>
+  <path d="M92 760h616" stroke="#F1F3F1" stroke-opacity=".16"/>
+  <text x="400" y="820" fill="#F1F3F1" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="7" text-anchor="middle">MOCK · REEMPLAZAR POR FOTO REAL</text>
+  <text x="400" y="875" fill="#687D6D" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="5" text-anchor="middle">U23 / ESTUDIO VISUAL 01</text>
+</svg>

@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 1000" fill="none">
+  <rect width="800" height="1000" fill="#121614"/>
+  <circle cx="400" cy="420" r="258" fill="#181D1A"/>
+  <circle cx="400" cy="420" r="218" stroke="#687D6D" stroke-opacity=".45" stroke-width="2"/>
+  <path d="M400 236c-76 0-138 62-138 138 0 46 23 86 58 111 12-26 35-47 62-57-23-14-38-39-38-68 0-44 36-80 80-80 40 0 73 30 79 68 21 17 35 44 35 74 0 27-13 52-33 68 32-25 53-66 53-110 0-80-64-144-143-144h-15z" fill="#687D6D"/>
+  <path d="M305 408c20 15 43 22 68 22 21 0 41-5 58-16M495 408c-20 15-43 22-68 22" stroke="#F1F3F1" stroke-opacity=".72" stroke-width="7" stroke-linecap="round"/>
+  <path d="m327 505 73 54 73-54-10 95h-126l-10-95z" fill="#080A09" stroke="#687D6D" stroke-width="3"/>
+  <path d="M104 720h592" stroke="#F1F3F1" stroke-opacity=".16"/>
+  <text x="400" y="790" fill="#F1F3F1" font-family="Arial,sans-serif" font-size="24" font-weight="700" letter-spacing="7" text-anchor="middle">MOCK · REEMPLAZAR POR FOTO REAL</text>
+  <text x="400" y="845" fill="#687D6D" font-family="Arial,sans-serif" font-size="15" font-weight="700" letter-spacing="5" text-anchor="middle">U23 / ESTUDIO VISUAL 03</text>
+</svg>
